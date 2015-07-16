@@ -11,8 +11,8 @@ router.get('/', function(req, res) {
 router.get('/quizes/question', quizController.question);
 router.get('/quizes/answer', quizController.answer);
 
-router.get('/author/creditos', function(req, res){
-	res.render('/author/creditos')
+router.get('/creditos', function(req, res){
+	res.render('creditos')
 });
 
 
